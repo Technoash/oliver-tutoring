@@ -1,0 +1,21 @@
+{
+  "name": "oliver",
+  "version": "1.0.0",
+  "description": "website for olivers tutoring company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/app.js dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.2",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1"
+  }
+}
