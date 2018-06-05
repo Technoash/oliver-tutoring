@@ -23,7 +23,7 @@ gulp.task('dev', function(){
     .pipe(gulp.dest('dist/'))
 
     gulp.src("src/static/**.**")
-    .pipe(gulp.dest("dist/"))
+    .pipe(gulp.dest("dist/static"))
 
     gulp.src("src/index.html")
     .pipe(gulp.dest("dist/"))

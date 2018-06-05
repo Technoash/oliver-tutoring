@@ -1,1 +1,40 @@
-@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+@import "bootswatch_variables.scss";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$color1: rgba(16, 79, 85, 1);
+$color2: rgba(67, 146, 241, 1);
+$color3: rgba(255, 255, 255, 1);
+$color4: rgba(0, 100, 148, 1);
+$color5: rgba(220, 73, 58, 1);
+
+body {
+  background: $color2;
+}
+
+.bb-1,
+.bb-2,
+.bb-3,
+.bb-4 {
+  margin-top: 15px;
+  width: 100%;
+  min-height: 200px;
+}
+
+.bb-1 {
+  margin-top: 40px;
+}
+
+.bb-1 {
+  // /background: $color2;
+}
+.bb-2 {
+  background: $color1;
+  margin-top: 100px;
+}
+.bb-3 {
+  background: $color5;
+}
+.bb-4 {
+  background: $color4;
+}
