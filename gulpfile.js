@@ -15,7 +15,7 @@ gulp.task('default', ['scripts'])
 
 
 gulp.task('dev', function(){
-    gulp.src("src/js/app.js")
+    gulp.src("src/js/*")
     .pipe(gulp.dest("dist/"))
 
     gulp.src('src/sass/style.scss')
