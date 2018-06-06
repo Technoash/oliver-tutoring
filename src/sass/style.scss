@@ -1,6 +1,6 @@
 $grid-breakpoints: (
         xs: 0,
-        sm: 526px,
+        sm: 326px,
         md: 768px,
         lg: 992px,
         xl: 1200px,
@@ -8,7 +8,7 @@ $grid-breakpoints: (
 );
 
 $container-max-widths: (
-        sm: 520px,
+        sm: 720px,
         md: 720px,
         lg: 960px,
         xl: 1140px,
@@ -54,4 +54,27 @@ body {
 }
 .bb-4 {
   background: $color4;
+}
+
+
+html {
+  font-size: 0.7rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1rem;
+  }
 }
