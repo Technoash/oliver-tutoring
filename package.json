@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack src/app.js dist/bundle.js"
+    "dev": "gulp dev && gulp dev-watch & http-server dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.1.1"
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "particles.js": "^2.0.0",
+    "popper.js": "^1.14.3"
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",
@@ -21,9 +24,11 @@
     "gulp-rename": "^1.2.3",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
+    "http-server": "^0.11.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.2",
     "webpack": "^4.10.2",
-    "webpack-cli": "^3.0.1"
+    "webpack-cli": "^3.0.1",
+    "webpack-stream": "^4.0.3"
   }
 }
