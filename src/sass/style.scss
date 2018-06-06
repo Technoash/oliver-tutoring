@@ -1,3 +1,20 @@
+$grid-breakpoints: (
+        xs: 0,
+        sm: 526px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1900px
+);
+
+$container-max-widths: (
+        sm: 520px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1610px
+);
+
 @import "bootswatch_variables.scss";
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
