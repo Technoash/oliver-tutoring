@@ -6,30 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="style.css" />
-    <title>Olivers Tutoring Company</title>
+    <title>DA Tuition</title>
 </head>
 <body>
     <div style="height: 100%; width:100%; position: absolute; z-index: -1;"  id="particles-js">
     </div>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-5">
-            <a class="navbar-brand" href="#">Oliver Tutoring</a>
+            <a class="navbar-brand" href="#">DA Tuition</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home 
-                        <span class="sr-only">(current)</span>
-                    </a>
-                    <a class="nav-item nav-link" href="#">Locations</a>
-                    <a class="nav-item nav-link" href="#">Subjects</a>
-                    <a class="nav-item nav-link" href="#">Tutors</a>
-
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#">Login</a>
-                </div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/locations.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Subjects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tutors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">K-6</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">7-12</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
             </div>
 
         </nav>
@@ -38,7 +55,7 @@
         <div class="container pt-4 pb-4">
             <div class="row">
                 <div class="col-md-4 offset-md-0 col-sm-4 offset-sm-4 d-sm-none d-xs-none d-md-block">
-                    <img style="left: -25px; position: relative; top: -5px;" width="100%" src="static/noun_1721210_cc.svg" alt="Kiwi standing on oval">
+                    <img id="triangle" style="left: -25px; position: relative; top: -5px;" width="100%" src="static/noun_1721210_cc.svg" alt="Kiwi standing on oval">
                 </div>
                 <div class="col-md-8">
                     <h1 class="display-4">Providing high quality tuition in the NSW area</h1>
@@ -57,17 +74,114 @@
     </div>
     <div class="bb-2 mt-3">
         <div class="container pt-5 pb-5">
-            <h1 class="display-4">Tried and tested methodology</h1>
+            <h1 class="display-4">Results</h1>
+            <div class="row mt-3">
+                <div class="col-lg-4">
+                        <img src="static/oliver.png" style="width: 200px;height: 200px;border-radius: 50%;">
+                        <h5>Oliver</h5>
+                        <h6>Band 6 Extension Maths</h6>
+                </div>
+                <div class="col-lg-4">
+                        <img src="static/mystery.png" style="width: 200px; height: 200px;border-radius: 50%;">
+                        <h5>Ashley</h5>
+                        <h6>100% Yearly Exam</h6>
+                </div>
+                <div class="col-lg-4">
+                        <img src="static/ashneil.png" style="width: 200px; height: 200px;border-radius: 50%;">
+                        <h5>Ashneil</h5>
+                        <h6>30% Improvement</h6>
+                </div>
+            </div>
+
         </div>
     </div>
-    <div class="bb-3 mt-3">
+    <div class="bb-3 mt-3 text-white">
         <div class="container pt-5 pb-5">
-            <h1 class="display-4">Talented Tutors</h1>
+            <h1 class="display-4">What we offer</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>One on One Sessions</h4>
+                    Student
+                </div>
+                <div class="col-lg-6">
+                    <h4>Group Classes</h4>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h4>Gifted and Talented</h4>
+                    For students who are fast learners
+                </div>
+                <div class="col-lg-6">
+                    <h4>ELITE</h4>
+                    For high acheivers who maintain 100% and 1st rank
+                </div>
+            </div>
         </div>
     </div>
     <div class="bb-4 mt-3">
-        <div class="container pt-5 pb-5">
-            <h1 class="display-4">Tutorial recordings</h1>
+        <div class="container pt-5 pb-5 text-white">
+            <h1 class="display-4">Popular Services</h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h4>Junior</h4>
+                    For K-6 Students<br/>
+                    Group Classes<br/>
+                    Subjects
+                    <ul>
+                        <li>
+                            Maths
+                        </li>
+                        <li>
+                            English
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>HS Junior</h4>
+                    For 7-12 Students<br/>
+                    Private or group classes<br/>
+                    Subjects<br/>
+                    <ul>
+                        <li>
+                            Maths
+                        </li>
+                        <li>
+                            English
+                        </li>
+                        <li>
+                            Science
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>HSC</h4>
+                    For 11-12 Students<br/>
+                    Private or group classes<br/>
+                    Subjects<br/>
+                    <ul>
+                        <li>
+                            General, 2U and Extension Maths
+                        </li>
+                        <li>
+                            Biology, Chemistry and Physics
+                        </li>
+                        <li>
+                            Std. and Adv. English
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="bb-5 mt-3">
+        <div class="container pt-5 pb-5 text-white">
+            <h1 class="display-4 mb-3">Get in touch now</h1>
+            <p>Give us a call and we'll create a solution to ensure your success</p>
+            <button type="button" class="btn btn-primary btn-lg btn-danger">Schedule a Callback</button>
+                        <button type="button" class="btn btn-secondary btn-lg btn-secondary">Call 0404 466 213</button>
         </div>
     </div>
     <!--<img src="static/cloud.png" />-->

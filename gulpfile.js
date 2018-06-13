@@ -5,15 +5,7 @@ sass = require('gulp-sass'),
 concat = require('gulp-concat'),
 webpack = require('webpack-stream');
 
-
-
-gulp.task('scripts', function(){
-    console.log("hellp")
-})
-
-
 gulp.task('default', ['scripts'])
-
 
 gulp.task('dev', function(){
     gulp.src("src/js/*")
@@ -34,6 +26,9 @@ gulp.task('dev', function(){
 
     gulp.src("src/index.html")
     .pipe(gulp.dest("dist/"))
+
+    gulp.src("src/pages/*.html")
+    .pipe(gulp.dest("dist/pages"))
 })
 
 gulp.task('dev-watch', function(){
